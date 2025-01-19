@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>All Questions</h1>
+  
+<ul>
+  {% for x in all_questions %}
+    <li>{{ x.text }} {{ x.a }}</li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
